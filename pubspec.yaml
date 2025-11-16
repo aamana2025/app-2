@@ -3,7 +3,7 @@ description: Flutter authentication and subscription app with Arabic RTL support
 
 publish_to: 'none'
 
-version: 1.0.3+3   # format: MAJOR.MINOR.PATCH+buildNumber+
+version: 1.0.3+4   # format: MAJOR.MINOR.PATCH+buildNumber+
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
