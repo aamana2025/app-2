@@ -1,108 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>$(DEVELOPMENT_LANGUAGE)</string>
-	<key>CFBundleDisplayName</key>
-	<string>Alajlan</string>
-	<key>CFBundleExecutable</key>
-	<string>$(EXECUTABLE_NAME)</string>
-	<key>CFBundleIdentifier</key>
-	<string>com.aamanaclassroom.app.ios</string>
-	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.0</string>
-	<key>CFBundleName</key>
-	<string>alajlan</string>
-	<key>CFBundlePackageType</key>
-	<string>APPL</string>
-	<key>CFBundleShortVersionString</key>
-	<string>$(FLUTTER_BUILD_NAME)</string>
-	<key>CFBundleSignature</key>
-	<string>????</string>
-	<key>CFBundleVersion</key>
-	<string>$(FLUTTER_BUILD_NUMBER)</string>
-	<key>LSRequiresIPhoneOS</key>
-	<true/>
-	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
-	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
-
-	<key>UISupportedInterfaceOrientations</key>
-	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
-
-	<!-- Camera / Photos (you already had these) -->
-	<key>NSCameraUsageDescription</key>
-	<string>This app requires access the camera to set a profile image for your user account.</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>This app requires access to your photo library to select and set a profile image for your user account.</string>
-	<!-- Optional: allow saving to photo library -->
-	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>This app needs permission to save downloaded images and documents to your photo library.</string>
-
-	<!-- Microphone (if you support recording) -->
-	<key>NSMicrophoneUsageDescription</key>
-	<string>This app requires access to the microphone to record audio for uploads.</string>
-
-	<key>UISupportedInterfaceOrientations~ipad</key>
-	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationPortraitUpsideDown</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
-
-	<!-- Location (your Arabic strings are kept) -->
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>نحتاج إلى الوصول إلى موقعك لعرض موقعك للعملاء القريبين وتمكينهم من رؤية الكابتن الأقرب على الخريطة.</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>نستخدم موقعك لعرض الكابتن للعملاء القريبين حتى أثناء عدم استخدام التطبيق، مما يساعدهم في حجز الرحلات بسرعة.</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>نحتاج إلى موقعك أثناء استخدام التطبيق لعرض الكابتن الأقرب للعملاء على الخريطة وتسهيل عملية الحجز.</string>
-
-	<!-- Make files visible in Files app / iTunes (useful for PDFs) -->
-	<key>UIFileSharingEnabled</key>
-	<true/>
-	<key>LSSupportsOpeningDocumentsInPlace</key>
-	<true/>
-
-	<!-- App Transport Security (use HTTPS by default).
+	<dict>
+		<key>CFBundleDevelopmentRegion</key>
+		<string>$(DEVELOPMENT_LANGUAGE)</string>
+		<key>CFBundleDisplayName</key>
+		<string>Alajlan</string>
+		<key>CFBundleExecutable</key>
+		<string>$(EXECUTABLE_NAME)</string>
+		<key>CFBundleIdentifier</key>
+		<string>com.aamanaclassroom.app.ios</string>
+		<key>CFBundleInfoDictionaryVersion</key>
+		<string>6.0</string>
+		<key>CFBundleName</key>
+		<string>alajlan</string>
+		<key>CFBundlePackageType</key>
+		<string>APPL</string>
+		<key>CFBundleShortVersionString</key>
+		<string>$(FLUTTER_BUILD_NAME)</string>
+		<key>CFBundleSignature</key>
+		<string>????</string>
+		<key>CFBundleVersion</key>
+		<string>$(FLUTTER_BUILD_NUMBER)</string>
+		<key>LSRequiresIPhoneOS</key>
+		<true/>
+		<key>UILaunchStoryboardName</key>
+		<string>LaunchScreen</string>
+		<key>UIMainStoryboardFile</key>
+		<string>Main</string>
+		<key>UISupportedInterfaceOrientations</key>
+		<array>
+			<string>UIInterfaceOrientationPortrait</string>
+			<string>UIInterfaceOrientationLandscapeLeft</string>
+			<string>UIInterfaceOrientationLandscapeRight</string>
+		</array>
+		<!-- Camera / Photos (you already had these) -->
+		<key>NSCameraUsageDescription</key>
+		<string>This app requires access the camera to set a profile image for your user account.</string>
+		<key>NSPhotoLibraryUsageDescription</key>
+		<string>This app requires access to your photo library to select and set a profile image for your user account.</string>
+		<!-- Optional: allow saving to photo library -->
+		<key>NSPhotoLibraryAddUsageDescription</key>
+		<string>This app needs permission to save downloaded images and documents to your photo library.</string>
+		<!-- Microphone (if you support recording) -->
+		<key>NSMicrophoneUsageDescription</key>
+		<string>This app requires access to the microphone to record audio for uploads.</string>
+		<key>UISupportedInterfaceOrientations~ipad</key>
+		<array>
+			<string>UIInterfaceOrientationPortrait</string>
+			<string>UIInterfaceOrientationPortraitUpsideDown</string>
+			<string>UIInterfaceOrientationLandscapeLeft</string>
+			<string>UIInterfaceOrientationLandscapeRight</string>
+		</array>
+		<!-- Location (your Arabic strings are kept) -->
+		<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+		<string>نحتاج إلى الوصول إلى موقعك لعرض موقعك للعملاء القريبين وتمكينهم من رؤية الكابتن الأقرب على الخريطة.</string>
+		<key>NSLocationAlwaysUsageDescription</key>
+		<string>نستخدم موقعك لعرض الكابتن للعملاء القريبين حتى أثناء عدم استخدام التطبيق، مما يساعدهم في حجز الرحلات بسرعة.</string>
+		<key>NSLocationWhenInUseUsageDescription</key>
+		<string>نحتاج إلى موقعك أثناء استخدام التطبيق لعرض الكابتن الأقرب للعملاء على الخريطة وتسهيل عملية الحجز.</string>
+		<!-- Make files visible in Files app / iTunes (useful for PDFs) -->
+		<key>UIFileSharingEnabled</key>
+		<true/>
+		<key>LSSupportsOpeningDocumentsInPlace</key>
+		<true/>
+		<!-- App Transport Security (use HTTPS by default).
 	     If you must allow HTTP for specific domains, list them under NSExceptionDomains.
 	     Do NOT set NSAllowsArbitraryLoads = true for production apps. -->
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<!-- Example: allow exceptions for a specific API domain (replace with your domain) -->
-		<key>NSExceptionDomains</key>
+		<key>NSAppTransportSecurity</key>
 		<dict>
-			<key>your.api.domain.com</key>
+			<!-- Example: allow exceptions for a specific API domain (replace with your domain) -->
+			<key>NSExceptionDomains</key>
 			<dict>
-				<key>NSIncludesSubdomains</key>
-				<true/>
-				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-				<!-- Prefer HTTPS; only use this temporarily for legacy servers -->
+				<key>your.api.domain.com</key>
+				<dict>
+					<key>NSIncludesSubdomains</key>
+					<true/>
+					<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+					<true/>
+					<!-- Prefer HTTPS; only use this temporarily for legacy servers -->
+				</dict>
 			</dict>
 		</dict>
-	</dict>
-
-	<!-- Background modes: optional. Many background transfers work with NSURLSession background without these,
+		<!-- Background modes: optional. Many background transfers work with NSURLSession background without these,
 	     but some plugins require 'fetch' or other modes. Add only if you need background fetch or audio etc. -->
-	<!--
+		<!--
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>fetch</string>
 		<string>remote-notification</string>
 	</array>
 	-->
-
-	<key>CADisableMinimumFrameDurationOnPhone</key>
-	<true/>
-	<key>UIApplicationSupportsIndirectInputEvents</key>
-	<true/>
-</dict>
+		<key>CADisableMinimumFrameDurationOnPhone</key>
+		<true/>
+		<key>UIApplicationSupportsIndirectInputEvents</key>
+		<true/>
+		<key>UIStatusBarHidden</key>
+		<true/>
+		<key>UIViewControllerBasedStatusBarAppearance</key>
+		<false/>
+	</dict>
 </plist>

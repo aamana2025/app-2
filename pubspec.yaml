@@ -69,6 +69,13 @@ flutter_native_splash:
   ios_content_mode: center
   fullscreen: true
 
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+  remove_alpha_ios: true
+
+
 flutter_launcher_icons:
   android: true
   ios: true
