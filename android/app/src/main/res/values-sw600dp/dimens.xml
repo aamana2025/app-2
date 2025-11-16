@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tablets: smaller inset so logo appears larger on big screens -->
+    <dimen name="splash_inset">32dp</dimen>
+</resources>
+
+

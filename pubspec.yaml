@@ -1,0 +1,78 @@
+name: aamanaclassroom
+description: Flutter authentication and subscription app with Arabic RTL support
+
+publish_to: 'none'
+
+version: 1.0.3+3   # format: MAJOR.MINOR.PATCH+buildNumber+
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  go_router: ^12.1.3
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  http: ^1.1.0
+  http_parser: ^4.0.2
+  url_launcher: ^6.1.10
+  flutter_secure_storage: ^9.0.0
+  android_intent_plus: ^5.2.0
+  flutter_pdfview: ^1.3.2
+  path_provider: ^2.1.1
+  permission_handler: ^11.0.1
+  device_info_plus: ^10.1.0
+  file_picker: ^8.0.0
+  webview_flutter: ^4.4.2
+  screen_protector: ^1.4.2
+  connectivity_plus: ^5.0.2
+  new_version_plus: ^0.1.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_native_splash: ^2.3.5
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  generate: true
+  
+  assets:
+    - assets/images/
+    - assets/images/logo.png
+    - assets/images/app_icon.png
+
+  fonts:
+    - family: WindSong
+      fonts:
+        - asset: fonts/WindSong-Regular.ttf
+        - asset: fonts/WindSong-Medium.ttf
+          weight: 500
+
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+  color: "#ffffff"
+  android_12:
+    color: "#ffffff"
+    image: assets/images/logo.png
+    image_dark: assets/images/logo.png
+  image: assets/images/logo.png
+  android_gravity: center
+  ios_content_mode: center
+  fullscreen: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+  remove_alpha_ios: true
+  min_sdk_android: 21
+ 

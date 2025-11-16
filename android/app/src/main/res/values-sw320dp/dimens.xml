@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Small phones (sw320dp ~ ~4.0"-4.7"): larger inset to scale down logo -->
+    <dimen name="splash_inset">64dp</dimen>
+</resources>
+
+

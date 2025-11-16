@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Short-height phones (~<= 560dp height): reduce splash image size more -->
+    <dimen name="splash_inset">48dp</dimen>
+</resources>
+
+

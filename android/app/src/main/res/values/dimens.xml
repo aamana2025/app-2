@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default inset for splash image to avoid oversized logo on small screens -->
+    <dimen name="splash_inset">48dp</dimen>
+</resources>
+
+
